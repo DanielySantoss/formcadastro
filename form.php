@@ -1,5 +1,5 @@
 <?php
-
+include "conexao.php";
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -21,7 +21,7 @@
 <img src="imageform.svg" alt="">
 </section>
 
-<form action="" method="POST" id="form">
+<form action="actioncadastrar.php" method="post" id="form">
 
 <label for="cod_func"> Código do Funcionário:
     <input type="text" name="cod_func" placeholder="Digite o codigo" required>
@@ -44,7 +44,7 @@
 </label>
 
 <label for="salario_func"> Salário do funcionário:
-    <input type="number" name="saario_func" placeholder="Digite o salário" required>
+    <input type="decimal" name="salario_func" placeholder="Digite o salário" required>
 </label>
 
 <label for="endereco_func"> Endereço do funcionário:
