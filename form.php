@@ -1,5 +1,6 @@
 <?php
 include "conexao.php";
+//Trabalho feito por Daniely Pereira e Jonathan Verissimo
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -10,8 +11,8 @@ include "conexao.php";
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 </style>
-    <title>Atiidade de PW Daniely e Jonathan</title>
-    <link rel="stylesheet" href="stylesform.css">
+    <title>Atividade de PW Daniely</title>
+    <link rel="stylesheet" href="/formcadastro/styleform.css">
 </head>
 <body>
     <main>
@@ -19,6 +20,8 @@ include "conexao.php";
 <h2>Olá, Bem vindo(a) ao <br>Cadastro de funcionário</h2>
 
 <img src="imageform.svg" alt="">
+
+<h3>Feito por @daniely.code</h3>
 </section>
 
 <form action="actioncadastrar.php" method="post" id="form">
