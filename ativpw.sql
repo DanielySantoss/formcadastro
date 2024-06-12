@@ -44,8 +44,8 @@ CREATE TABLE `funcionarios` (
 --
 
 INSERT INTO `funcionarios` (`cod_func`, `nome`, `cargo_func`, `departamento_func`, `admissao_func`, `salario_func`, `endereco_func`, `email_func`, `tel_func`) VALUES
-('2', 'Daniely Pereira dos Santos', 'Desenvolvedor front end', 'TI', '2024-06-02', 3000, 'r bulgaria 58', 'dominiccx014@gmail.com', '19373893272'),
-('1', 'Jonathan Verissimo Pereira', 'Auxiliar de produçao', 'Produção', '2024-06-07', 5000, 'rua grecia n43', 'jonhverissimo10@gmail.com', '12343535676');
+('2', 'Daniely Pereira dos Santos', 'Desenvolvedor front end', 'TI', '2024-06-02', 3000, 'r grecia', 'dominiccx014@gmail.com', '19373893272'),
+
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
